@@ -57,7 +57,7 @@ $ echo "deb http://shell.ninthgate.se/packages/debian squeeze main" | sudo tee -
 $ sudo curl http://shell.ninthgate.se/packages/shell-ninthgate-se-keyring.key | sudo apt-key add -
 $ sudo apt-get update
 $ sudo apt-get install plexmediaserve
-``
+```
 
 ##Install ZSH And oh-my-zsh
 ```bash
