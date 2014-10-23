@@ -3,6 +3,5 @@
 
 # But not these files...
 !*rc
-!oh-my-zsh/
 !.gitignore
 !.oh-my-zsh
