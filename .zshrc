@@ -95,3 +95,13 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+
+function temp() {
+    sudo hddtemp /dev/sda
+    sudo hddtemp /dev/sdb
+    sudo hddtemp /dev/sdc
+    sudo hddtemp /dev/sdd
+    sudo hddtemp /dev/sde
+    sudo hddtemp /dev/sdf
+    sudo sensors
+}
